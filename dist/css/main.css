@@ -5,8 +5,8 @@ body {
 }
 
 #main-header {
-	height: 100%;
-	box-sizing: border-box;
+/*	height: 100%;*/
+/*	box-sizing: border-box;*/
 }
 header {
 	justify-content: center;
@@ -46,10 +46,14 @@ a {
 	font-size: 18px;
 }
 
+a:hover {
+	color: #727171;
+}
+
 #slider-wrapper {
 	margin: 0 auto;
 	width: 80%;
-	height: 92vh;
+	height: 100vh;
 	box-sizing: border-box;
 	display: flex;
 	position: relative;
@@ -95,10 +99,257 @@ a {
 
 #slider-navigation {
 	position: absolute;
-	bottom: 0px;
+	bottom: 20px;
 	left: 50%;
 }
 
 .slider-link:focus {
 	color: #e10011;
 }
+.content {
+	width: 80%;
+	height: 100%;
+	background-color: white;
+	margin: 0 auto;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+#main-text {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 20px;
+}
+
+#main-text h2 {
+	font-size: 48px;
+	font-weight: black;
+}
+#main-text img {
+	width: max-content;
+}
+
+#main-items {
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.first-row {
+	width: 100%;
+	height: 390px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.first-row a {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #eeeeee;
+	border-radius: 10px;
+}
+
+#first-link {
+	width: 65%;
+	position: relative;
+}
+
+#second-link {
+	width: 30%;
+	float: right;
+	position: relative;
+}
+
+#speaker {
+	position: absolute;
+	top: -12%;
+	left: -15%
+}
+
+#beats {
+	position: absolute;
+	top: -12%;
+	right: -15%
+}
+
+.second-row {
+	width: 100%;
+	height: 390px;
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.second-row a {
+	display: inline-flex;
+	justify-content: space-around;
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #eeeeee;
+	border-radius: 10px;
+	width: 30%;
+}
+#third-link, #fourth-link, #fifth-link  {
+	position: relative;
+}
+#third-link:hover {
+	content: "Minimal Product Design";
+	background-color: #e10011;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#wristlet {
+	position: absolute;
+	top: 10%;
+	left: 0%;
+}
+#shoes {
+	left: -110%;
+	position: absolute;
+}
+#chair {
+	position: absolute;
+	left: -30%;
+}
+
+#main-footer {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#caption {
+	text-align: center;
+	font-size: 18px;
+	line-height: 25px;
+}
+#caption h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 48px;
+}
+
+form {
+	height: 70px;
+	box-sizing: border-box;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 18px;
+	width: 100%;
+	position: relative;
+}
+
+input {
+	height: 100%;
+	display: inline-flex;
+	border: none;
+	outline: none;
+}
+
+#email-field {
+	width: 65%;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	padding-left: 40px;
+	box-sizing: border-box;
+	color: #979797;
+	
+}
+
+#button {
+	width: 35%;
+	background-color: #e10011;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 0px 20px 20px 0px;
+	font-weight: 900;
+	text-align: center;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+
+.fa-envelope-o {
+	width: 15px;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	color: #979797;
+}
+
+footer {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.social {
+	margin: 50px auto;
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.social li {
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	justify-content: center;
+	display: inline-flex;
+	border-radius: 50%;
+}
+.social li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.fa-medium,.fa-youtube, .fa-twitter, .fa-facebook {
+	padding-top: 15px;
+	color: #979797;
+}
+
+#copyright {
+	color: #979797;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#copyright:before {
+	content: 
+}
+
+#company {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+

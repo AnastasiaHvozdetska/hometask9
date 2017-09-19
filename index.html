@@ -1,53 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<script src="https://use.fontawesome.com/02e8312cff.js"></script>
-	<link rel="stylesheet" href="./dist/css/normalize.css">
-	<link rel="stylesheet" href="./dist/css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-	<link rel="shortcut icon" href="./dist/images/favicon.ico">
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/02e8312cff.js"></script>
+    
+    <link rel="stylesheet" href="./dist/css/normalize.css">
+    <link rel="stylesheet" href="./dist/css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600i,900" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./dist/images/favicon.ico">
 </head>
+
 <body>
-	<section id="main-header">
-		<header>
-			<nav>
-				<a href="#" id="logo">ProductMan</a>
-				<ul>
-					<li><a href="#">Recent Work</a></li>
-					<li><a href="#">Featured Product</a></li>
-					<li><a href="#"><i class="fa fa-bars fa-1x" aria-hidden="true"></i></a></li>
-				</ul>
-			</nav>
-		</header>
-		<section id="slider-wrapper">
-			<div id="slider">
-				<div id="text">
-					<h1>Black&amp;<br>White</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-					</p>
-					<span><a href="#">View Project</a></span>
-				</div>
-				<div id="slider-img">
-					<img src="./dist/images/image.png" alt="">
-				</div>
-			</div>
-			<div id="slider-navigation">
-					<a href="#" class="slider-link">
-						<i class="fa fa-circle" aria-hidden="true"></i>
-					</a>
-					<a href="#" class="slider-link">
-						<i class="fa fa-circle" aria-hidden="true"></i>
-					</a>
-					<a href="#" class="slider-link">
-						<i class="fa fa-circle" aria-hidden="true"></i>
-					</a>
-				</div>
-		</section>
-	</section>
-	
+    <header>
+        <nav>
+            <a href="#" id="logo">ProductMan</a>
+            <ul>
+                <li><a href="#">Recent Work</a></li>
+                <li><a href="#">Featured Product</a></li>
+                <li><a href="#"><i class="fa fa-bars fa-1x" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="slider-wrapper">
+        <div id="slider">
+            <div id="text">
+                <h1>Black&amp;<br>White</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+                <span><a href="#">View Project</a></span>
+            </div>
+            <div id="slider-img">
+                <img src="./dist/images/image.png" alt="">
+            </div>
+        </div>
+        <div id="slider-navigation">
+            <a href="#" class="slider-link">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="slider-link">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="slider-link">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+    <section id="main">
+        <div class="content">
+            <div id="main-text">
+                <h2>Featured Product</h2>
+                <img src="./dist/images/underline.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div id="main-items">
+                <div class="first-row">
+                    <a href="#" id="first-link"><img src="./dist/images/speaker.png" alt="" id="speaker"></a>
+                    <a href="#" id="second-link"><img src="./dist/images/beats.png" alt="" id="beats"></a>
+                </div>
+                <div class="second-row">
+                    <a href="#" id="third-link"><img src="./dist/images/wristlet.png" alt="" id="wristlet"></a>
+                    <a href="#" id="fourth-link"><img src="./dist/images/Shoes.jpg" alt="" id="shoes"></a>
+                    <a href="#" id="fifth-link"><img src="./dist/images/chair.jpg" alt="" id="chair"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-footer">
+        <div class="container">
+            <div id="caption">
+                <h2>Productman news</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <form action="">
+                <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                <input type="email" id="email-field" placeholder="Enter your email address">
+                <input type="submit" id="button" value="Subscribe">
+            </form>
+        </div>
+        <footer>
+        	<ul class="social">
+        		<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        		<li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        		<li><a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+        		<li><a href="#"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a></li>
+        	</ul>
+        	<p id="copyright">
+        		Copyright <span id="company">Your Company</span> ltd 2016. All Rights Reserved.
+        	</p>
+        </footer>
+    </section>
+
 </body>
+
 </html>
